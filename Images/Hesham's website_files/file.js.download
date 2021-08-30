@@ -1,0 +1,14 @@
+/*
+    getElementById;
+    getElementsByClassName;
+    getELementsByTagName;
+    querySelectorAll
+    Objects {
+        1- title;
+        2- images;
+        3- forms
+        4- anchors;
+        5- links;
+        6- body
+    }
+*/

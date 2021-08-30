@@ -1,0 +1,737 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+body
+{font-family: Gilroy}
+.all
+{
+    width: 1366px;
+    height: 3875px;
+    background-color: grey
+}
+.clear
+{clear: both}
+/* Start Header */
+header
+{
+    width: 100%;
+    height: 768px;
+    background-color: #FFF;
+    overflow: hidden
+}
+header .head-top
+{
+    width: 100%;
+    height: 96px;
+    box-shadow: 0px 4px 32px #EAEAEA;
+    z-index: 2;
+    overflow: hidden
+}
+.text-container
+{width: 1088px;margin-left: 139px;}
+header .head-top .text-container nav
+{
+    height: 96px;
+    width: 100%;
+    overflow: hidden
+}
+header .head-top .text-container nav .nav-image
+{
+    height: 96px;
+    width: 526px;
+    float: left
+}
+header .head-top .text-container nav .nav-image img
+{margin-top: 13px}
+header nav .nav-list
+{
+    width: 562px;
+    height: 96px;
+    float: left
+}
+header .head-top .text-container nav .nav-list div
+{
+    float: left;
+    height: 100%;
+    margin-right: 30px
+}
+header .head-top .text-container nav .nav-list div p
+{
+    margin-top: 38px;
+    font-size: 17px;
+    height: 21px;
+}
+header .head-top .text-container nav .nav-list div p a
+{text-decoration: none;color: #707070}
+header .head-top .text-container nav .nav-list .about-us
+{ width: 75px }
+header .head-top .text-container nav .nav-list .mission
+{ width: 126px }
+header .head-top .text-container nav .nav-list .blogs
+{ width: 45px }
+header .head-top .text-container nav .nav-list .partners
+{ width: 103px }
+header .head-top .text-container nav .nav-list .contact
+{width: 93px; margin-right: 0px}
+header .head-bot
+{
+    width: 100%;
+    height: 672px;
+    z-index: 1;
+    overflow: hidden
+}
+header .head-bot .fixed
+{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    float: right;
+    background-color: #FFF;
+    position: fixed;
+    bottom: 32px;
+    left: 1131px;
+    z-index: 3;
+    box-shadow: 0px 4px 8px #8C8C8C;
+    overflow: hidden
+}
+header .head-bot .fixed img
+{
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 24px;
+    cursor: pointer
+}
+header .head-bot .left
+{
+    width: 492px;
+    height: 672px;
+    float: left;
+    z-index: 1;
+    overflow: hidden
+}
+header .head-bot .left-top
+{
+    width: 100%;
+    height: 271px;
+    float: left;
+    z-index: 1;
+    overflow: hidden
+}
+header .head-bot .left-top .heading
+{
+    width: 100%;
+    height: 39px;
+    margin-top: 48px
+}
+header .head-bot .left-top .heading p
+{
+    font-size: 31px;
+    text-align: left;
+    color: #0D366E
+}
+header .head-bot .left-top .words
+{width: 100%;height: 184px;}
+header .head-bot .left-top .words div
+{
+    width: 144px;
+    height: 44px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #ECEFF4;
+    margin-right: 16px;
+    float: left;
+    margin-top: 24px;
+}
+header .head-bot .left-top .words div:nth-child(3)
+{margin-right: 0px}
+header .head-bot .left-top .words div p
+{
+    text-align: center;
+    padding-top: 10px;
+    color: #0D366E;
+    font-size: 20px
+}
+header .head-bot .left-bot
+{
+    width: 100%;
+    height: 401px;
+    float: left;
+    z-index: 1;
+    overflow: hidden;
+}
+header .head-bot .left-bot .text-1
+{
+    width: 201px;
+    height: 16px;
+    margin-bottom: 32px
+}
+header .head-bot .left-bot .text-1:last-child
+{margin-bottom: 49px}
+header .head-bot .left-bot .text-1 div
+{
+    width: 16px;
+    height: 16px;
+    background-color: #0D366E;
+    border-radius: 50%;
+    float: left
+}
+header .head-bot .left-bot .text-1 p
+{
+    float: left;
+    margin-left: 12px;
+    font-size: 14px;
+    color: #707070
+}
+header .head-bot aside
+{
+    width: 596px;
+    height: 672px;
+    float: right;
+    z-index: 2;
+}
+header .head-bot aside img
+{float: right;margin-top: 48px}
+/* End Header */
+
+/* Start Article (About Us) */
+
+.about-art
+{
+    width: 100%;
+    height: 448px;
+    background-color: #0D366E;
+    position: relative;
+    overflow: hidden
+}
+.about-art .about-left
+{width: 308px;float: left}
+.about-art .about-left .aboutUs
+{
+    width: 142px;
+    height: 55px;
+    margin-top: 48px
+}
+.about-art .about-left .aboutUs p
+{
+    text-align: center;
+    padding-top: 13px;
+    color: #FFF;
+    font-size: 32px
+}
+.about-art .about-left .aboutUs p span
+{background-color: #FFF;color: #0D366E}
+.about-art .about-left .aboutUs-img
+{
+    width: 308px;
+    height: 265px;
+    margin-top: 32px
+}
+.about-art .about-left .aboutUs-img img
+{width: 100%;height: 100%}
+.about-art .about-right
+{
+    width: 748px;
+    height: 201px;
+    float: left;
+    margin-top: 167px;
+    margin-left: 32px
+}
+.about-art .about-right p
+{
+    line-height: 20px;
+    font-size: 18px;
+    word-spacing: 0.25px;
+    text-align: left;
+    color: #FFF
+}
+/* End Article (About Us) */
+
+/* Start Article (Our Mission & Vision) */
+.mission-art
+{
+    width: 100%;
+    height: 720px;
+    background-color: #FFF;
+    overflow: hidden
+}
+.mission-art .mission-left
+{
+    width: 528px;
+    height: 720px;
+    float: left
+}
+.mission-art .mission-left div:first-child
+{
+    width: 168px;
+    height: 39px;
+    margin-top: 56px
+}
+.mission-art .mission-left div:first-child p
+{
+    text-align: center;
+    color: #0D366E;
+    font-size: 32px
+}
+.mission-art .mission-left div:first-child p span
+{background-color: #0D366E;color: #FFF}
+.mission-art .mission-left div:nth-child(2)
+{
+    width: 528px;
+    height: 201px;
+    margin-top: 40px;
+}
+.mission-art .mission-left div:nth-child(2) p
+{
+    color: #707070;
+    line-height: 20px;
+    font-size: 18px;
+    word-spacing: 0.25px;
+    text-align: left;
+}
+.mission-art .mission-left div:nth-child(3)
+{
+    width: 147px;
+    height: 39px;
+    margin-top: 56px
+}
+.mission-art .mission-left div:nth-child(3) p
+{
+    text-align: center;
+    color: #0D366E;
+    font-size: 32px
+}
+.mission-art .mission-left div:nth-child(3) p span
+{background-color: #0D366E;color: #FFF}
+.mission-art .mission-left div:last-child
+{
+    width: 528px;
+    height: 201px;
+    margin-top: 40px;
+}
+.mission-art .mission-left div:last-child p
+{
+    color: #707070;
+    line-height: 20px;
+    font-size: 18px;
+    word-spacing: 0.25px;
+    text-align: left;
+}
+.mission-art .mission-right
+{
+    width: 560px;
+    height: 720px;
+    float: left
+}
+.mission-art .mission-right div
+{
+    width: 528px;
+    height: 537px;
+    margin-top: 135px;
+    margin-left: 32px;
+}
+.mission-art .mission-right div img
+{width: 100%;height: 100%;}
+/* End Article (Our Mission & Vision) */
+
+/* Start Article (Blogs) */
+.blogs-art
+{
+    width: 100%;
+    height: 759px;
+    background-color: #ECEFF4;
+    overflow: hidden
+}
+.blogs-art .text-container .first-img
+{
+    margin-top: 56px;
+    margin-bottom: 40px
+}
+.blogs-art .text-container .first-img p
+{
+    color: #0D366E;
+    font-size: 32px
+}
+.blogs-art .text-container .first-img span
+{color: #FFF;background-color: #0D366E; padding: 5px}
+.blogs-art .blogs-left
+{width: 528px;float: left; box-shadow: 0px 4px 32px #EAEAEA}
+.blogs-art .blogs-left .bl-container-1
+{
+    width: 100%;
+    height: 561px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FFF;
+}
+.blogs-art .blogs-left .bl-container-1 div:first-child
+{width: 100%;height: 374px}
+.blogs-art .blogs-left .bl-container-1 div:first-child img
+{width: 100%;height: 100%;border-radius: 10px 10px 0px 0px}
+.blogs-art .blogs-left .bl-container-1 div:nth-child(2)
+{width: 100%;height: 187px; padding-left: 20px}
+.blogs-art .blogs-left .bl-container-1 div:nth-child(2) h3
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0D366E
+}
+.blogs-art .blogs-left .bl-container-1 div:nth-child(2) p
+{
+    color: #707070;
+    line-height: 20px;
+    font-size: 18px;
+    word-spacing: 0.25px;
+    text-align: left;
+}
+.blogs-art .blogs-right
+{
+    width: 528px;
+    margin-left: 32px;
+    float: left;
+    box-shadow: 0px 4px 32px #EAEAEA
+}
+.blogs-art .blogs-right .bl-container-2
+{
+    width: 100%;
+    height: 561px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FFF;
+}
+.blogs-art .blogs-right .bl-container-2 div:first-child
+{width: 100%;height: 374px}
+.blogs-art .blogs-right .bl-container-2 div:first-child img
+{width: 100%;height: 100%;border-radius: 10px 10px 0px 0px}
+.blogs-art .blogs-right .bl-container-2 div:nth-child(2)
+{width: 100%;height: 187px;padding-left: 20px}
+.blogs-art .blogs-right .bl-container-2 div:nth-child(2) h3
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0D366E
+}
+.blogs-art .blogs-right .bl-container-2 div:nth-child(2) p
+{
+    color: #707070;
+    line-height: 20px;
+    font-size: 18px;
+    word-spacing: 0.25px;
+    text-align: left;
+}
+.blogs-art .last-div
+{
+    float: right;
+    margin-top: 20px
+}
+.blogs-art .last-div i
+{
+    font-size: 22px;
+    margin-left: 10px;
+    color: #0D366E;
+    cursor: pointer
+}
+/* End Article (Blogs) */
+
+/* Start Article (Partners) */
+.part-art
+{
+    width: 100%;
+    height: 295px;
+    background-color: #0D366E;
+    overflow: hidden
+}
+.part-art .part-word
+{height: 39px;margin-top: 56px}
+.part-art .part-word p
+{color: #FFF;font-size: 32px}
+.part-art .part-word p span
+{
+    background-color: #FFF;
+    color: #0D366E;
+    padding: 5px
+}
+.part-art .part-logo
+{margin-top: 40px;background-color: red;}
+.part-art .part-logo .my-logo
+{
+    width: 112px;
+    height: 112px;
+    border-radius: 12px 12px 12px 12px;
+    background-color: #FFF;
+    float: left;
+    margin-right: 132px
+}
+.part-art .part-logo .my-logo img
+{margin-top: 16px;margin-left: 16px}
+.part-art .part-logo .my-logo:last-child
+{margin-right: 0px}
+.part-art .last
+{
+    width: 100%;
+    height: 12px;
+    margin-top: 20px
+}
+.part-art .last .boxes
+{
+    width: 60px;
+    height: 12px;
+    margin: 0px auto
+}
+.part-art .last .boxes div
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #FFF;
+    float: left;
+    margin-right: 12px;
+    cursor: pointer
+}
+.part-art .last .boxes div:nth-child(2)
+{opacity: 0.4}
+.part-art .last .boxes div:last-child
+{margin-right: 0px; opacity: 0.4}
+/* End Article (Partners) */
+
+/* Start Article (Contact Us) */
+.cont-art
+{
+    width: 100%;
+    height: 616px;
+    background-color: #FFF;
+    overflow: hidden
+}
+.cont-art .cont-top
+{height: 55px;margin-top: 48px}
+.cont-art .cont-top p
+{color: #0D366E;font-size: 32px}
+.cont-art .cont-top p span
+{
+    color: #FFF;
+    background-color: #0D366E;
+    padding: 10px
+}
+.cont-art .cont-bot
+{
+    margin-top: 32px;
+    width: 100%;
+    height: 433px
+}
+.cont-art .cont-bot .cont-bot-left
+{
+    width: 528px;
+    margin-right: 32px;
+    height: 433px;
+    background-color: #FFF;
+    border: 3px solid #ADADAD;
+    border-radius: 15px 15px 15px 15px;
+    float: left
+}
+.cont-art .cont-bot .cont-bot-left form div
+{
+    width: 44%;
+    margin-left: 4%;
+    margin-right: 4%;
+    float: left
+}
+.cont-art .cont-bot .cont-bot-left form div:nth-child(2)
+{margin-left: 0px}
+.cont-art .cont-bot .cont-bot-left form div:nth-child(3)
+{width: 92%}
+.cont-art .cont-bot .cont-bot-left form div:nth-child(4)
+{width: 92%}
+.cont-art .cont-bot .cont-bot-left form div label
+{
+    display: block;
+    margin-top: 14px;
+    color: #0D366E;
+    font-size: 20px
+}
+.cont-art .cont-bot .cont-bot-left form div input
+{
+    display: block;
+    margin-top: 14px;
+    border-radius: 6px 6px 6px 6px;
+    border: 2px solid #ADADAD;
+    width: 100%;
+    height: 45px;
+    color: #0D366E;
+    font-size: 20px
+}
+.cont-art .cont-bot .cont-bot-left form div:nth-child(4) input
+{height: 80px}
+.cont-art .cont-bot .cont-bot-left form div:last-child button
+{
+    color: #FFF;
+    background-color: #0D366E;
+    padding: 10px 80px 10px 80px;
+    cursor: pointer;
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 30px;
+    margin-left: 150px
+}
+.cont-art .cont-bot .cont-bot-right
+{
+    width: 528px;
+    height: 433px;
+    background-color: red;
+    border-radius: 15px 15px 15px 15px;
+    float: left;
+    position: relative
+}
+.cont-art .cont-bot .cont-bot-right div:first-child img
+{
+    width: 528px;
+    height: 433px;
+    z-index: 1
+}
+.cont-art .cont-bot .cont-bot-right div:nth-child(n+2)
+{
+    width: 48px;
+    height: 48px;
+    background-color: #FFF;
+    z-index: 2;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 2px 8px #EAEAEA;
+    position: absolute
+}
+.cont-art .cont-bot .cont-bot-right div:nth-child(2)
+{top: 16px;right: 16px}
+.cont-art .cont-bot .cont-bot-right div:nth-child(3)
+{top: 309px;right: 16px}
+.cont-art .cont-bot .cont-bot-right div:last-child
+{top: 369px;right: 16px}
+.cont-art .cont-bot .cont-bot-right div:nth-child(n+2):nth-child(-n+3) img
+{margin-top: 12px;margin-left: 12px; cursor: pointer}
+.cont-art .cont-bot .cont-bot-right div:last-child img
+{margin-top: 24px;margin-left: 12px;cursor: pointer}
+/* End Article (Contact Us) */
+
+/* Start Footer */
+footer
+{
+    width: 100%;
+    height: 269px;
+    background-color: #0D366E;
+    overflow: hidden
+}
+footer .foot-left
+{
+    width: 119px;
+    height: 132px;
+    float: left;
+    margin-top: 48px;
+    margin-right: 225px;
+}
+footer .foot-med
+{
+    width: 228px;
+    margin-right: 225px;
+    height: 117px;
+    float: left;
+    margin-top: 48px
+}
+footer .foot-med div:first-child p
+{color: #FFF;font-size: 28px}
+footer .foot-med div:first-child p span
+{
+    background-color: #FFF;
+    color: #0D366E;
+    padding: 5px
+}
+footer .foot-med div:last-child
+{
+    margin-top: 30px;
+    background-color: green;
+}
+footer .foot-med div:last-child div
+{
+    width: 48px;
+    height: 48px;
+    background-color: #FFF;
+    margin-right: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    float: left
+}
+footer .foot-med div:last-child .youtube
+{margin-right: 0px; margin-top: 0px}
+footer .foot-med div:last-child div i
+{
+    font-size: 30px;
+    margin-top: 9px;
+    color: #0D366E;
+}
+footer .foot-med div:last-child .facebook i
+{margin-left: 14px}
+footer .foot-med div:last-child .instagram i
+{margin-left: 11px}
+footer .foot-med div:last-child .linked i
+{margin-left: 12px}
+footer .foot-med div:last-child .youtube i
+{margin-left: 7px}
+footer .foot-right
+{
+    width: 291px;
+    margin-right: 0px;
+    height: 173px;
+    float: left;
+    margin-top: 48px
+}
+footer .foot-right div:first-child p
+{color: #FFF;font-size: 28px}
+footer .foot-right div:first-child p span
+{
+    background-color: #FFF;
+    color: #0D366E;
+    padding: 5px
+}
+footer .foot-right div:nth-child(2)
+{margin-top: 20px}
+footer .foot-right div:nth-child(2) .font-awesome-1
+{
+    float: left;
+    font-size: 26px;
+    color: #FFF
+}
+footer .foot-right div:nth-child(2) .add-1
+{
+    float: left;
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 5px;
+    margin-left: 10px
+}
+footer .foot-right div:nth-child(2) .font-awesome-2
+{
+    float: left;
+    font-size: 26px;
+    color: #FFF;
+    margin-top: 10px
+}
+footer .foot-right div:nth-child(2) .add-2
+{
+    float: left;
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 17px;
+    margin-left: 10px
+}
+footer .foot-right div:nth-child(2) .font-awesome-3
+{
+    float: left;
+    font-size: 26px;
+    color: #FFF;
+    margin-top: 10px
+}
+footer .foot-right div:nth-child(2) .add-3
+{
+    float: left;
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 17px;
+    margin-left: 10px
+}
+/* End Footer */
